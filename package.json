@@ -1,0 +1,44 @@
+{
+    "name": "cuesheet",
+    "displayName": "CUE Sheet",
+    "description": "Syntax highlighting for CUE sheets",
+    "version": "0.1.0",
+    "author": "Z. Grace Moreau",
+    "publisher": "zgm",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zgracem/vscode-cuesheet"
+    },
+    "icon": "./images/cue.png",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "cuesheet",
+                "aliases": [
+                    "CUE Sheet",
+                    "cuesheet"
+                ],
+                "extensions": [
+                    ".cue",
+                    ".CUE"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cuesheet",
+                "scopeName": "source.cuesheet",
+                "path": "./syntaxes/cue.tmLanguage"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "76F636F0-A7EE-4DD6-A223-5732A5AD3F36",
+        "publisherId": "C0F17A57-509D-428E-95A8-AE189E8EA8E6",
+        "publisherDisplayName": "Z. Grace Moreau"
+    }
+}
