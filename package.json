@@ -25,7 +25,7 @@
                     ".cue",
                     ".CUE"
                 ],
-                "configuration": "./language-configuration.json"
+                "configuration": "./cuesheet-configuration.json"
             }
         ],
         "grammars": [
