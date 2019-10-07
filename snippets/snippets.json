@@ -1,0 +1,16 @@
+{
+  "CUE Template": {
+    "prefix": "new",
+    "body": [
+      "TITLE \"${1:Album}\"\nPERFORMER \"${2:Artist}\"\nREM GENRE \"${3:Alternative}\"\nREM DATE ${4:2012}\nREM DISCNUMBER 1\nREM TOTALDISCS 1\nREM COMMENT \"${5:ExactAudioCopy v0.99pb5}\"\nFILE \"01 - ${6:file}.flac\" WAVE\n  TRACK 01 AUDIO\n    TITLE \"${6:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"02 - ${7:file}.flac\" WAVE\n  TRACK 02 AUDIO\n    TITLE \"${7:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"03 - ${8:file}.flac\" WAVE\n  TRACK 03 AUDIO\n    TITLE \"${8:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"04 - ${9:file}.flac\" WAVE\n  TRACK 04 AUDIO\n    TITLE \"${9:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"05 - ${10:file}.flac\" WAVE\n  TRACK 05 AUDIO\n    TITLE \"${10:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"06 - ${11:file}.flac\" WAVE\n  TRACK 06 AUDIO\n    TITLE \"${11:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"07 - ${12:file}.flac\" WAVE\n  TRACK 07 AUDIO\n    TITLE \"${12:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"08 - ${13:file}.flac\" WAVE\n  TRACK 08 AUDIO\n    TITLE \"${13:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"09 - ${14:file}.flac\" WAVE\n  TRACK 09 AUDIO\n    TITLE \"${14:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"10 - ${15:file}.flac\" WAVE\n  TRACK 10 AUDIO\n    TITLE \"${15:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"11 - ${16:file}.flac\" WAVE\n  TRACK 11 AUDIO\n    TITLE \"${16:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00\nFILE \"12 - ${17:file}.flac\" WAVE\n  TRACK 12 AUDIO\n    TITLE \"${17:Song}\"\n    FLAGS DCP\n    INDEX 01 00:00:00"
+    ],
+    "description": "New CUE sheet"
+  },
+  "Track Template": {
+    "prefix": "track",
+    "body": [
+      "TRACK ${0:01} AUDIO\n  TITLE \"$1\"\n  PERFORMER \"$2\"\n  FLAGS DCP\n  PREGAP 00:02:00\n  INDEX 01 00:00:00\n  POSTGAP 00:02:00"
+    ],
+    "description": "New track"
+  }
+}

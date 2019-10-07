@@ -34,6 +34,12 @@
                 "scopeName": "source.cuesheet",
                 "path": "./syntaxes/cue.tmLanguage"
             }
+        ],
+        "snippets": [
+            {
+                "language": "cuesheet",
+                "path": "./snippets/snippets.json"
+            }
         ]
     },
     "__metadata": {
