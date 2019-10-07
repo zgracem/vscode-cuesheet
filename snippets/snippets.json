@@ -12,5 +12,194 @@
       "TRACK ${0:01} AUDIO\n  TITLE \"$1\"\n  PERFORMER \"$2\"\n  FLAGS DCP\n  PREGAP 00:02:00\n  INDEX 01 00:00:00\n  POSTGAP 00:02:00"
     ],
     "description": "New track"
+  },
+  // Keywords
+  "CATALOG": {
+    "prefix": "CATALOG",
+    "body": "CATALOG ${0:1234567890123}"
+  },
+  "CDTEXTFILE": {
+    "prefix": "CDTEXTFILE",
+    "body": "CDTEXTFILE \"${0:file}.cdt\""
+  },
+  "FILE": {
+    "prefix": "FILE",
+    "body": "FILE \"${0:file}.flac\" WAVE"
+  },
+  "FLAGS": {
+    "prefix": "FLAGS",
+    "body": "FLAGS DCP"
+  },
+  "INDEX": {
+    "prefix": "INDEX",
+    "body": "INDEX 01 00:00:00"
+  },
+  "ISRC": {
+    "prefix": "ISRC",
+    "body": "ISRC ${0:ABCDE1234567}"
+  },
+  "PERFORMER": {
+    "prefix": "PERFORMER",
+    "body": "PERFORMER \"$0\""
+  },
+  "POSTGAP": {
+    "prefix": "POSTGAP",
+    "body": "POSTGAP 00:${0:02}:00"
+  },
+  "PREGAP": {
+    "prefix": "PREGAP",
+    "body": "PREGAP 00:${0:02}:00"
+  },
+  "REM GENRE": {
+    "prefix": "REM GENRE",
+    "body": "REM GENRE \"$0\""
+  },
+  "REM DATE": {
+    "prefix": "REM DATE",
+    "body": "REM DATE 20${0:00}"
+  },
+  "REM DISCID": {
+    "prefix": "REM DISCID",
+    "body": "REM DISCID ${0:ABCDEF01}"
+  },
+  "REM DISCNUMBER": {
+    "prefix": "REM DISCNUMBER",
+    "body": "REM DISCNUMBER 1"
+  },
+  "REM TOTALDISCS": {
+    "prefix": "REM TOTALDISCS",
+    "body": "REM TOTALDISCS 1"
+  },
+  "REM COMMENT": {
+    "prefix": "REM COMMENT",
+    "body": "REM COMMENT \"${0:CC-BY-NC-SA 3.0 Creative Commons License}\""
+  },
+  "SONGWRITER": {
+    "prefix": "SONGWRITER",
+    "body": "SONGWRITER \"$0\""
+  },
+  "TITLE": {
+    "prefix": "TITLE",
+    "body": "TITLE \"$0\""
+  },
+  "TRACK": {
+    "prefix": "TRACK",
+    "body": "TRACK ${0:01} AUDIO"
+  },
+  // File Types
+  "BINARY (File Type)": {
+    "prefix": "BINARY (File Type)",
+    "body": "BINARY"
+  },
+  "MOTOROLA (File Type)": {
+    "prefix": "MOTOROLA (File Type)",
+    "body": "MOTOROLA"
+  },
+  "AIFF (File Type)": {
+    "prefix": "AIFF (File Type)",
+    "body": "AIFF"
+  },
+  "WAVE (File Type)": {
+    "prefix": "WAVE (File Type)",
+    "body": "WAVE"
+  },
+  "MP3 (File Type)": {
+    "prefix": "MP3 (File Type)",
+    "body": "MP3"
+  },
+  // Flag Types
+  "4CH (Flag)": {
+    "prefix": "4CH (Flag)",
+    "body": "4CH"
+  },
+  "DCP (Flag)": {
+    "prefix": "DCP (Flag)",
+    "body": "DCP"
+  },
+  "PRE (Flag)": {
+    "prefix": "PRE (Flag)",
+    "body": "PRE"
+  },
+  "SCMS (Flag)": {
+    "prefix": "SCMS (Flag)",
+    "body": "SCMS"
+  },
+  // Track Types
+  "AUDIO (Track Type)": {
+    "prefix": "AUDIO (Track Type)",
+    "body": "AUDIO"
+  },
+  "CDG (Track Type)": {
+    "prefix": "CDG (Track Type)",
+    "body": "CDG"
+  },
+  "MODE1/2048 (Track Type)": {
+    "prefix": "MODE1/2048 (Track Type)",
+    "body": "MODE1/2048"
+  },
+  "MODE1/2336 (Track Type)": {
+    "prefix": "MODE1/2336 (Track Type)",
+    "body": "MODE1/2336"
+  },
+  "MODE2/2336 (Track Type)": {
+    "prefix": "MODE2/2336 (Track Type)",
+    "body": "MODE2/2336"
+  },
+  "MODE2/2352 (Track Type)": {
+    "prefix": "MODE2/2352 (Track Type)",
+    "body": "MODE2/2352"
+  },
+  "CDI/2336 (Track Type)": {
+    "prefix": "CDI/2336 (Track Type)",
+    "body": "CDI/2336"
+  },
+  "CDI/2352 (Track Type)": {
+    "prefix": "CDI/2352 (Track Type)",
+    "body": "CDI/2352"
+  },
+  // Other
+  "disc (1/1)": {
+    "prefix": "disc (1/1)",
+    "body": "REM DISCNUMBER 1\nREM TOTALDISCS 1"
+  },
+  "disc (1/2)": {
+    "prefix": "disc (1/2)",
+    "body": "REM DISCNUMBER 1\nREM TOTALDISCS 2"
+  },
+  "disc (2/2)": {
+    "prefix": "disc (2/2)",
+    "body": "REM DISCNUMBER 2\nREM TOTALDISCS 2"
+  },
+  ".aiff": {
+    "prefix": ".aiff",
+    "body": ".aiff"
+  },
+  ".ape": {
+    "prefix": ".ape",
+    "body": ".ape"
+  },
+  ".flac": {
+    "prefix": ".flac",
+    "body": ".flac"
+  },
+  ".iso": {
+    "prefix": ".iso",
+    "body": ".iso"
+  },
+  ".m4a": {
+    "prefix": ".m4a",
+    "body": ".m4a"
+  },
+  ".mp3": {
+    "prefix": ".mp3",
+    "body": ".mp3"
+  },
+  ".wav": {
+    "prefix": ".wav",
+    "body": ".wav"
+  },
+  ".wma": {
+    "prefix": ".wma",
+    "body": ".wma"
   }
 }
