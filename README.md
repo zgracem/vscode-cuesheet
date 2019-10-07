@@ -1,8 +1,6 @@
 # vscode-cuesheet
 
-<img src="https://raw.githubusercontent.com/zgracem/vscode-cuesheet/master/images/cue.png" width="64" height="64">
-
-A [Visual Studio Code] extension that provides syntax highlighting for [CUE sheets].
+A [Visual Studio Code] extension that provides syntax highlighting and snippets for editing [CUE sheets].
 
 Based on [CUE-Sheet_sublime] by Oleg Geier.
 
