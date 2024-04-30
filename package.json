@@ -9,7 +9,7 @@
         "type": "git",
         "url": "https://github.com/zgracem/vscode-cuesheet"
     },
-    "icon": "images/cue.png",
+    "icon": "./images/cue-retro.png",
     "engines": {
         "vscode": "^1.38.0"
     },
